@@ -1,10 +1,10 @@
 import Header from "./Header";
-import {Outlet} from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
-export default function Layout() {
+export default function Layout({ darkMode, setDarkMode }) {
   return (
     <main>
-      <Header />
+      <Header darkMode={darkMode} setDarkMode={setDarkMode} />
       <Outlet />
     </main>
   );
