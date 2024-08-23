@@ -80,8 +80,6 @@ const DynamicBackground = ({ darkMode }) => {
   );
 };
 
-<<<<<<< HEAD
+
 export default DynamicBackground;
-=======
-export default DynamicBackground;
->>>>>>> 9d8798fdce6462cd77e735c755e1f447fc666ca0
+
